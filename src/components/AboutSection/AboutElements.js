@@ -41,7 +41,7 @@ export const InfoRow = styled.div`
   align-items: center;
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? "'col2 col1'" : "'col1 col2'"};
-  /* Must use '\' css class \'' */
+  /* Must use '\' css class \'' */ 
 
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
