@@ -7,7 +7,7 @@ import ContactPage from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/contact' element={<ContactPage/>} />
