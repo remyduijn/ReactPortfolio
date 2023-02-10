@@ -33,7 +33,9 @@ const AboutSection = () => {
                 <Heading>Thanks for scrolling</Heading>
                 <Subtitle>If you need similar design work or have other projects or need a developer for your team, feel free to contact me.</Subtitle>
                 <BtnWrap>
-                  <Button href={Pdf}>Download Resume</Button>
+                  <Button>
+                    <a href={Pdf} target='_blank' rel='noopener noreferrer'>Download Resume</a>
+                  </Button>
                   <Button2 to='/Contact'>Contact Me</Button2> 
                 </BtnWrap>
               </TextWrapper>
