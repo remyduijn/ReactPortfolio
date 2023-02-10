@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.7383346c.css",
-    "main.js": "/ReactPortfolio/static/js/main.74f518fc.js",
+    "main.css": "/ReactPortfolio/static/css/main.b5e9461b.css",
+    "main.js": "/ReactPortfolio/static/js/main.3e7b5918.js",
     "static/media/remy-big.jpg": "/ReactPortfolio/static/media/remy-big.1d9f939d25e1907e27ae.jpg",
     "static/media/remy-small.jpg": "/ReactPortfolio/static/media/remy-small.7f48053d1c0f31dc6140.jpg",
-    "static/media/resume_RD.pdf": "/ReactPortfolio/static/media/resume_RD.4b93c4f60b9fe8926e76.pdf",
+    "static/media/resume_RD.pdf": "/ReactPortfolio/static/media/resume_RD.bdb71f34a9ff827bf3f8.pdf",
     "static/media/movie.svg": "/ReactPortfolio/static/media/movie.8d634c80ea54bf58207306c066023508.svg",
     "static/media/diagram.png": "/ReactPortfolio/static/media/diagram.66f752c8ea433a5a4d7a.png",
     "static/media/cloud.png": "/ReactPortfolio/static/media/cloud.cf849a5b01dfce5fb7f2.png",
@@ -15,11 +15,11 @@
     "static/media/diet.svg": "/ReactPortfolio/static/media/diet.b2b97f2ad00bae18f439dae8a0019ae4.svg",
     "static/media/resume.svg": "/ReactPortfolio/static/media/resume.63b56ce6b55135682f7e8dd44839006f.svg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.7383346c.css.map": "/ReactPortfolio/static/css/main.7383346c.css.map",
-    "main.74f518fc.js.map": "/ReactPortfolio/static/js/main.74f518fc.js.map"
+    "main.b5e9461b.css.map": "/ReactPortfolio/static/css/main.b5e9461b.css.map",
+    "main.3e7b5918.js.map": "/ReactPortfolio/static/js/main.3e7b5918.js.map"
   },
   "entrypoints": [
-    "static/css/main.7383346c.css",
-    "static/js/main.74f518fc.js"
+    "static/css/main.b5e9461b.css",
+    "static/js/main.3e7b5918.js"
   ]
 }
