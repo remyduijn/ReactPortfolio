@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.b5e9461b.css",
-    "main.js": "/ReactPortfolio/static/js/main.3e7b5918.js",
+    "main.css": "/ReactPortfolio/static/css/main.c514c907.css",
+    "main.js": "/ReactPortfolio/static/js/main.f38b7c14.js",
+    "static/media/portfolio-bike.png": "/ReactPortfolio/static/media/portfolio-bike.0a0b96b3ea730842dc47.png",
+    "static/media/portfolio-move.png": "/ReactPortfolio/static/media/portfolio-move.84c058356d0c13e04225.png",
+    "static/media/portfolio-ikigai.png": "/ReactPortfolio/static/media/portfolio-ikigai.bc6bb1cf48e2615c72d7.png",
+    "static/media/portfolio-watch.png": "/ReactPortfolio/static/media/portfolio-watch.9d93f868bec4615791ba.png",
+    "static/media/portfolio-pet.png": "/ReactPortfolio/static/media/portfolio-pet.0f3662d8e2f2574aa85c.png",
     "static/media/remy-big.jpg": "/ReactPortfolio/static/media/remy-big.1d9f939d25e1907e27ae.jpg",
+    "static/media/portfolio-nutrition.png": "/ReactPortfolio/static/media/portfolio-nutrition.b44d3fae565b12f744d5.png",
     "static/media/remy-small.jpg": "/ReactPortfolio/static/media/remy-small.7f48053d1c0f31dc6140.jpg",
     "static/media/resume_RD.pdf": "/ReactPortfolio/static/media/resume_RD.bdb71f34a9ff827bf3f8.pdf",
-    "static/media/movie.svg": "/ReactPortfolio/static/media/movie.8d634c80ea54bf58207306c066023508.svg",
     "static/media/diagram.png": "/ReactPortfolio/static/media/diagram.66f752c8ea433a5a4d7a.png",
     "static/media/cloud.png": "/ReactPortfolio/static/media/cloud.cf849a5b01dfce5fb7f2.png",
     "static/media/browser.png": "/ReactPortfolio/static/media/browser.417beab112aebc3d8af7.png",
     "static/media/svg-4.svg": "/ReactPortfolio/static/media/svg-4.e41abfa68692a00ffdd8a072e7b1650a.svg",
     "static/media/laptop.png": "/ReactPortfolio/static/media/laptop.799f33523fac2286ee5d.png",
-    "static/media/travel.svg": "/ReactPortfolio/static/media/travel.c4643dc6d67a323cd7fa558a9170589b.svg",
-    "static/media/diet.svg": "/ReactPortfolio/static/media/diet.b2b97f2ad00bae18f439dae8a0019ae4.svg",
     "static/media/resume.svg": "/ReactPortfolio/static/media/resume.63b56ce6b55135682f7e8dd44839006f.svg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.b5e9461b.css.map": "/ReactPortfolio/static/css/main.b5e9461b.css.map",
-    "main.3e7b5918.js.map": "/ReactPortfolio/static/js/main.3e7b5918.js.map"
+    "main.c514c907.css.map": "/ReactPortfolio/static/css/main.c514c907.css.map",
+    "main.f38b7c14.js.map": "/ReactPortfolio/static/js/main.f38b7c14.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5e9461b.css",
-    "static/js/main.3e7b5918.js"
+    "static/css/main.c514c907.css",
+    "static/js/main.f38b7c14.js"
   ]
 }
