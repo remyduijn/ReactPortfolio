@@ -27,7 +27,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>RD</SocialLogo>
-            <WebsiteRights>Remy Duijn © 2022 All rights reserved.</WebsiteRights>
+            <WebsiteRights>Remy Duijn © 2023 All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='https://www.linkedin.com/in/remy-duijn-00827036/' target='_blank' aria-label='Linkedin' rel='noopener noreferrer'>
                 <FaLinkedin />

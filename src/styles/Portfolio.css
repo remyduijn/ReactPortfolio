@@ -19,3 +19,76 @@ img {
     margin-left: 3.5rem;
 }}
 
+.bg {
+    -o-object-fit: cover; 
+    object-fit: cover; 
+    background: url("../images/portfolio-ikigai.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bg2 {
+    -o-object-fit: cover; 
+    object-fit: cover; 
+    background: url("../images/portfolio-watch.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bg3 {
+    -o-object-fit: cover; 
+    object-fit: cover; 
+    background: url("../images/portfolio-nutrition.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bg4 {
+    -o-object-fit: cover; 
+    object-fit: cover; 
+    background: url("../images/portfolio-pet.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bg5 {
+    -o-object-fit: cover; 
+    object-fit: cover; 
+    background: url("../images/portfolio-bike.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bg6 {
+    -o-object-fit: cover; 
+    object-fit: cover; 
+    background: url("../images/portfolio-move.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+    .rec.rec-pagination {
+        display: none;
+      }
+
+    .rec.rec-arrow {
+        border-color: rgba(0, 0, 0, 0.4) !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        outline: none;
+
+    } 
+    
+    .rec.rec-arrow:hover {
+        background-color:  rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .rec.rec-arrow:disabled {
+        visibility: hidden;
+    }
+    .rec.rec-arrow:enabled {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+

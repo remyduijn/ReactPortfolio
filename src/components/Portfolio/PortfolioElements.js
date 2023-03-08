@@ -9,75 +9,128 @@ export const PortfolioContainer = styled.div`
   position: relative;
   z-index: 1;
   padding-bottom: 2rem;
-
-  :before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 215, 64, 1) 0%,
-        rgba(255, 215, 64, 1) 100%
-      );
-      // linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-    z-index: 2;
-  }
- 
+  background-color: rgba(255, 215, 64, 1);
+  
   @media screen and (max-width: 768px) {
-    height: 1300px;
+    height: 750px;
   }
   @media screen and (max-width: 425px) {
-    height: 1240px;
+    height: 700px;
   }
   `;
   
-export const PortfolioWrapper = styled.div`
+// export const PortfolioWrapper = styled.div`
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   align-items: center;
+//   grid-gap: 16px;
+//   padding: 0 50px;
+//   z-index: 3;
+
+//   @media screen and (max-width: 1000px) {
+//     grid-template-columns: 1fr 1fr;
+//   }
+
+//   @media screen and (max-width: 768px) {
+//     grid-template-columns: 1fr;
+//     padding: 0 20px;
+//   }
+// `;
+
+export const CarouselContainer = styled.div`
+  width: 90%;
   max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  grid-gap: 16px;
-  padding: 0 50px;
-  z-index: 3;
+  z-index: 2;
 
-  @media screen and (max-width: 1000px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
+  @media screen and (max-width: 1300px) {
+    width: 100%;
   }
 `;
 
 export const PortfolioCard = styled.div`
-  background: #fff;
   display: flex;
+  margin-top: 0.4em;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
-  max-height: 340px;
-  max-width: 335px;
-  min-height: 286px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: solid 1px #263238;
+  // max-height: 340px;
+  // max-width: 335px;
+  height: 286px;
+  width: 335px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  
+  @media screen and (max-width: 1200px) {
+    width: 310px;
+    height: 264px;
+  }
+
+  @media screen and (max-width: 1100px) {
+    width: 290px;
+    height: 248px;
+  }
+
+  @media screen and (max-width: 1020px) {
+    width: 250px;
+    height: 213px;
+  }
+
+  @media screen and (max-width: 880px) {
+    width: 300px;
+    height: 255px;
+  }
+
+  @media screen and (max-width: 725px) {
+    width: 270px;
+    height: 230px;
+  }
+
+  @media screen and (max-width: 375px) {
+    width: 255px;
+    height: 217px;
+  }
+
+  @media screen and (max-width: 320px) {
+    width: 200px;
+    height: 170px;
+  }
+`;
+
+export const PortfolioItem = styled.div`
   transition: all 0.2s ease-in-out;
+  margin-bottom: 0.4em;
 
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+`
 
-  @media screen and (max-width: 768px) {
-    max-width: 400px;
-    min-height: 0;  
-  }
+export const PortfolioLabel = styled.h1`
+  background: #263238;
+  display: flex;
+  // margin-top: .3em;
+  // margin-bottom: 0.4em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // margin-left: auto;
+  // margin-right: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  // width: 250px;
+  padding: 15px;
+  border: solid 1px #263238;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  color: #F5F5F5;
+  font-size: 1rem;
+  letter-spacing: 1px;
 `;
 
 export const PortfolioIcon1 = styled.img`
@@ -93,13 +146,13 @@ export const PortfolioIcon2 = styled.img`
 `;
 
 export const PortfolioIcon = styled.img`
-  height: 170px;
-  width: 200px;
+  height: 160px;
+  width: 190px;
 
-  @media (min-width: 1000px) {
-    height: 190px;
-    width: 210px;
-  }
+  // @media (min-width: 1000px) {
+  //   height: 190px;
+  //   width: 210px;
+  // }
 `;
 
 export const PortfolioH1 = styled.h1`

@@ -10,7 +10,7 @@ import {
   InfoContainer,
   InfoWrapper,
   InfoRow,
-  Column1,
+  Column1, 
   Column2,
   TextWrapper,
   TopLine,
@@ -64,7 +64,7 @@ const AboutSection = ({
                 <img class="img-position" src={img4} alt="" width="45" height="45"></img>
                 <div class="about-text">
                   <h3>Application deployment</h3>
-                  <p>I manage application deployment, put project on servers and design technical architecture using UML diagrams.</p>
+                  <p>I manage application deployment, put projects on servers and design technical architecture using UML diagrams.</p>
                 </div>
                 <img class="img-position" src={img5} alt="" width="45" height="45"></img>
               </TextWrapper>

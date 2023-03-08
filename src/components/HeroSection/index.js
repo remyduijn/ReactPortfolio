@@ -15,9 +15,9 @@ function HeroSection () {
         <div className='masthead'></div>
       </HeroBg>
       <HeroContent>
-        <HeroH1>Web Designer and Developer</HeroH1>
+        <HeroH1>Web Developer</HeroH1>
         <HeroP>
-        &lt; Front-end, Back-end & Wordpress /&gt; 
+        &lt; Full Stack /&gt; 
         </HeroP>
       </HeroContent>
     </HeroContainer>
